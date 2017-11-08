@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NaviTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_basic_map">BasicMapActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_target_navi">TargetNaviActivity</string>
+
+    <string name="welcome_words">欢迎使用高德地图导航</string>
+
+</resources>

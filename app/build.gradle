@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "com.example.navitest"
+        minSdkVersion 11
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+    compile files('libs/AMap3DMap_5.2.1_AMapNavi_5.1.0_20170630.jar')
+    compile files('libs/AMap_Location_V3.4.1_20170629.jar')
+    compile files('libs/AMap_Search_V5.2.1_20170630.jar')
+}

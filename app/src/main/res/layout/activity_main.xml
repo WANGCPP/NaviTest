@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/navibutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationbutton"
+        android:text="打开导航" />
+
+    <Button
+        android:id="@+id/locationbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开地图" />
+
+</RelativeLayout>
