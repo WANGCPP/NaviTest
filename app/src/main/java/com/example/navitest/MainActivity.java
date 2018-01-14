@@ -10,8 +10,8 @@ import android.widget.Button;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-    Button naviButton;//负责打开导航Activity
-    Button mapButton;//负责打开地图Activity
+    private Button naviButton;//负责打开导航Activity
+    private Button mapButton;//负责打开地图Activity
 
     private ProgressDialog progressDialog = null;
 
